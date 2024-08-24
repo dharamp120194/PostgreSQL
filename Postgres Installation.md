@@ -2,7 +2,7 @@
 
 ```code ```
 
-#Configuration file location:
+***Configuration file location***
 
 -rw-------. 1 postgres postgres     3 Aug 24 15:07 PG_VERSION
 drwx------. 2 postgres postgres     6 Aug 24 15:07 pg_twophase
