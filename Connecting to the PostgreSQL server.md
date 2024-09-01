@@ -35,6 +35,17 @@ Launched as postgres user and psql on Linux attempts a Unix socket connection by
 sudo -u postgres psql
 ```
 
+## Validating connection information
+
+The output of the following command would show the IP address and port of the current connection, unless you are using 
+Unix sockets, in which case both values are NULL.
+
+```
+SELECT inet_server_addr(), inet_server_port();
+```
+
+Another method: ``` \conninfo ```
+
 
 
 
