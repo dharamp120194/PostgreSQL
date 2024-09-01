@@ -11,11 +11,11 @@ Specify the following parameters to connect to PostgreSQL:
 
 PostgreSQL looks for values set through enviroment variables, which are as follows:
 
-• PGHOST or PGHOSTADDR
-• PGPORT (set this to default 5432 if it is not set already)
-• PGDATABASE
-• PGUSER
-• PGPASSWORD (Not recommended)
+- PGHOST or PGHOSTADDR
+- PGPORT (set this to default 5432 if it is not set already)
+- PGDATABASE
+- PGUSER
+- PGPASSWORD (Not recommended)
 
 ## Connection String 
 
