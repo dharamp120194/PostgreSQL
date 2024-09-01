@@ -28,5 +28,13 @@ Or use Uniform Resource Identifier (URI) format
 ```
 psql postgresql://myuser:mypasswd@myhost:5432/mydb
 ```
+##Unix socket connection
+
+Launched as postgres user and psql on Linux attempts a Unix socket connection by default when host beings with a slash (/) and the nameis presumed to be a directory name (the default is /tmp). 
+```
+sudo -u postgres psql
+```
+
+
 
 
