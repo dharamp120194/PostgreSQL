@@ -1,11 +1,11 @@
 # Connecting to the PostgreSQL server
 
 Specify the following parameters to connect to PostgreSQL:
-• A host or host address
-• A port
-• A database name
-• A user
-• A password (or other means of authentication; but only if requested)
+- A host or host address
+- A port
+- A database name
+- A user
+- A password (or other means of authentication; but only if requested)
 
 ## Without specifying paramrters 
 
